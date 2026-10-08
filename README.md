@@ -17,6 +17,7 @@
 - [Machine Learning Architecture & Algorithms](#-machine-learning-architecture--algorithms)
 - [Model Performance & Evaluation](#-model-performance--evaluation)
 - [Application Modules](#-application-modules)
+- [Technology Stack & Libraries Breakdown](#️-technology-stack--libraries-breakdown)
 - [Project Directory Structure](#-project-directory-structure)
 - [Local Installation & Setup](#-local-installation--setup)
 - [Batch Processing Workflow](#-batch-processing-workflow)
@@ -146,7 +147,7 @@ ROC-AUC Metric:         0.972
 
 ### 3. `Model Performance`
 - Live metrics overview (`Accuracy`, `Precision`, `Recall`, `F1-Score`, `ROC-AUC`).
-- Interactive grayscale Confusion Matrix with true negative/positive counts.
+- Interactive Confusion Matrix (Sapphire-to-Cyan heatmap) with true negative/positive counts.
 - High-resolution ROC Curve with shaded area under curve.
 - Gini Feature Importance horizontal chart.
 - Complete classification report and model specifications.
@@ -157,6 +158,22 @@ ROC-AUC Metric:         0.972
 - Coding vs. Aptitude scatter clusters with project sizing.
 - Pairwise feature correlation matrix heatmap.
 - Filterable data browser with custom CSV export.
+
+---
+
+## 🛠️ Technology Stack & Libraries Breakdown
+
+| Category | Technology / Library | Version | Role in the Platform |
+| :--- | :--- | :--- | :--- |
+| **Language** | **Python** | `3.10+` | Core programming language powering ML logic and data transformations. |
+| **Web Framework** | **Streamlit** | `>=1.40` | Reactive dashboard architecture, session state management, caching (`@st.cache_resource`, `@st.cache_data`), file uploaders, and CSV downloads. |
+| **Machine Learning** | **Scikit-Learn** | `>=1.4` | Implementation of `RandomForestClassifier`, stratified 80/20 train/test splitting, confusion matrix, ROC curve, AUC score, and classification reports. |
+| **Data Manipulation** | **Pandas** | `>=2.0` | Tabular data structures (`DataFrame`), multi-column feature selection, batch CSV parsing, statistical aggregations, and CSV exports. |
+| **Numerical Computing** | **NumPy** | `>=1.24` | Vectorized mathematical operations, Poisson/Gaussian random distributions, probability rounding, and array transformations. |
+| **Interactive Visuals** | **Plotly** | `>=5.18` | Hardware-accelerated interactive web charts: placement gauge meters, radar spider benchmarks, confusion matrix heatmaps, ROC curves, and cohort histograms. |
+| **Scientific Charting** | **Matplotlib** | `>=3.7` | Static plotting utilities and complementary visualization primitives. |
+| **Statistical Visuals** | **Seaborn** | `>=0.13` | Statistical data exploration and correlation matrix styling. |
+| **Deployment** | **Streamlit Cloud** | — | Cloud hosting platform with automated continuous deployment on `git push`. |
 
 ---
 
