@@ -1,5 +1,5 @@
 # 🎓 Student Placement AI Predictor
-> **Enterprise-Grade Machine Learning Platform for Career Trajectory Forecasting, Diagnostic Skill Analytics, and Cohort Evaluation.**
+> **Machine Learning Platform for Career Trajectory Forecasting, Diagnostic Skill Analytics, and Cohort Evaluation.**
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.40%2B-FF4B4B.svg?logo=streamlit&logoColor=white)](https://streamlit.io/)
